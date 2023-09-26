@@ -33,8 +33,22 @@ html, body {
 
 .logo {
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     font-weight: 700;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-list__link {
+    color: white;
+    text-decoration: none;
 }
