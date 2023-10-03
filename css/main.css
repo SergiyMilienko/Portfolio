@@ -80,7 +80,6 @@ html, body {
 
 .nav-list__link--active::before {
     content: "";
-
     position: absolute;
     left: 0;
     top: 100%;
@@ -94,11 +93,15 @@ html, body {
 .header {
     background-color: var(--dark-bg);
     color: var(--header-text);
-    min-height: 600px;
+    min-height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-image: url('./../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
 }
 
 .header__wrapper {
