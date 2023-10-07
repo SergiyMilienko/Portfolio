@@ -65,6 +65,7 @@ html, body {
     font-size: 16px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
+    row-gap: 10px;
 }
 
 .nav-list__link {
@@ -94,6 +95,7 @@ html, body {
 }
 
 .header {
+    padding: 40px 0px;
     background-color: var(--dark-bg);
     color: var(--header-text);
     min-height: 650px;
@@ -181,6 +183,7 @@ html, body {
     flex-wrap: wrap;
     column-gap: 30px;
     row-gap: 30px;
+    justify-content: center;
 }
 
 .project {
@@ -315,5 +318,70 @@ html, body {
 
 .content-list__item p + p {
     margin-top: 0.5em;
+}
+
+@media (max-width: 620px) {
+    .header__title {
+        font-size: 30px;
+    }
+
+    .header__title strong {
+        font-size: 40px;
+    }
+
+    .header {
+        min-height: unset;
+    }
+
+    .section {
+        padding: 40px 0px;
+    }
+
+    .title-1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .project__title {
+        font-size: 22px;
+    }
+
+    .footer {
+        padding: 40px 0px 30px;
+    }
+    
+    .social {
+        column-gap: 20px;
+    }
+
+    .social__item img {
+        height: 28px;
+        width: 28px;
+    }
+
+    .footer__wrapper {
+        row-gap: 20px;
+    }
+    
+    .copyright {
+        font-size: 14px;
+    }
+
+    .title-2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .content-list {
+        row-gap: 20px;
+    }
+
+    .content-list__item {
+        font-size: 16px;
+    }
+
+    .project-details__desc {
+        font-size: 22px;
+    }
 }
 
